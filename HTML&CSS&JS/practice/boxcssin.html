@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxcss//internal</title>
+    <link rel="shortcut icon" href="logo.png" type="image icon">
+
+    <!--div~p, #d1+div div parent having id d1 ke jst baad wala div ,
+    #d1, div>a or somthig else applid on child, dip p applid on all -->
+
+    <style>
+        #d1
+        {
+            background-color: black;
+            color: rgb(255, 0, 0);
+            border: 5px dashed gold;
+            padding-top: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            word-spacing: 100px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            width: 1400px;
+            height: 50px;
+            position: fixed;
+            top: 20px;
+        }
+        a:hover
+        {
+            color: green;
+            border: 5px solid red;
+            margin-top: 50px;
+            margin-left: 50px;
+            display: table-cell;  
+        }
+        a:link
+        {
+            color: green;
+            border: 5px solid red;
+            margin-top: 50px;
+            margin-left: 50px;
+            display: table-cell;  
+        }
+        a:visited
+        {
+            color: green;
+            border: 5px solid red;
+            margin-top: 50px;
+            margin-left: 50px;
+            display: table-cell;  
+        }
+        #d2 
+        {   width: 30%;
+            height: 500px;
+            background-color: rgb(111, 181, 159);
+            float: left;
+        }
+        #d3 
+        {   width: 70%;
+            height: 500px;
+            background-color: rgb(111, 181, 159);
+            
+        }
+        input
+        {
+            width:100px;
+            transition: width 12ms step-start,background-color 12ms ease-in;
+        }
+        input:focus
+        {
+            width: 200px;
+            color: rgb(243, 242, 243);
+            background-color: aqua;
+        }
+        #d4
+        {   
+            background-color: black;
+            width: 300px;
+            height: 250px;  
+            transition: transform 2s ease-out;
+        }
+        #d4 h1
+        {
+            color: blue;
+            position: relative;
+            top: 110px;
+            left: 10px;
+        }
+        #d4:hover
+        {
+            transform:rotate(360deg);   
+        }
+        #main
+        {
+            width: 1400px;
+            column-count: 2;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="d1">
+        this is my <span style="font-size: 50px;"><b>fucking</b></span> new web side 
+    </div>
+
+    <div id="main">
+
+        <div id="d2">
+            <h1>sunnysurya</h1>
+            <a href="youtube.in">1</a>
+            <a href="youtube.in">2</a>
+        </div>
+
+        <div id="d3" style="margin: 10px;">
+         i am here 
+        </div>
+    </div>
+
+
+    <div id="d4" style="margin: 10px;">
+        <h1>samsuryawanshi</h1>
+     </div>
+    <div>
+        <img src="logo.jpg" alt="logo.png">
+
+    </div>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+</body>
+</html>

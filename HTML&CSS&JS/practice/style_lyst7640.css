@@ -1,0 +1,29 @@
+body{
+    background-image: url('flag.png');
+    background-repeat: no-repeat;
+}
+h1
+{
+    color:#00AA00;
+    text-align:center;
+    text-transform: capitalize;
+    /*text-decoration: line-through;*/
+    letter-spacing: 10px;
+    background-color: yellow;
+}
+p{
+    color:rgb(0,100,100);
+    text-align:justify;
+    text-indent: 50px;
+    line-height: 25px;
+    word-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+    font-style:italic;
+}
+a
+{
+    text-decoration: none;
+    color:orangered;
+    font-weight: bold;
+}
